@@ -1,0 +1,156 @@
+ %% Ach ja, übrigens: Das hier ist gehackt und nicht schön. Normalerweise
+%% wäre es netter, die 90  Sekunden als Klasse zu definieren oder so und nicht 
+%% so viele inputs zu benutzen.
+
+%\newif\ifpdf
+%\ifx\pdfoutput\undefined
+%\pdffalse
+%\else
+%\pdfoutput=1
+%\pdftrue
+%\fi
+
+
+\usepackage[BCOR1cm]{typearea}
+\usepackage[german]{babel}
+\usepackage{url,multicol}
+\usepackage{graphics,german,epsfig,epsf,fancybox,picinpar}
+\usepackage[latin1]{inputenc}
+\usepackage{shapepar,fancybox,multicol,shapepar,wrapfig,rotating}
+%Hier ist die einzige Stelle, wo sich die unterschiedlichen Layouts unterscheiden
+%bis auf die Farben der Streifen natürlich
+\usepackage[a4paper,noheadfoot,left=1.2cm,right=1.2cm,top=1cm,bottom=1cm]{geometry}
+\setlength{\hoffset}{-2mm}%Verschiebung nach links (mag der Win - Acrobat irgendwie)
+%\setlength{\voffset}{-.3cm}%dann druckens die acrobats auch richtig aus.
+\ifpdf
+\usepackage[pdftex]{color}
+\else
+\usepackage{color}
+\fi
+\pagestyle{empty}
+
+
+%Anmerkung! Bloß nicht an \setlength{\parindent} spielen, die minipage mit der Textbox wird gerade dadurch schoen ausgerichtet!
+
+
+%So, jetzt wird das Layout eingebunden. 
+\input{../def/neuedefinitionen.tex}
+
+
+\newlength{\hochziehen}
+\setlength{\hochziehen}{\textheight}%Hoehe der linie
+\addtolength{\hochziehen}{-.5cm}%hoehe des Logos
+        
+\newenvironment{vorderseite}[2]{%Die Laengen gelten auf der Rueckseite genauso, daher kommentiere ich nur hier oben...
+\begin{center}
+\begin{minipage}{\linewidth} 
+      \parbox[b]{3mm}{
+\hspace*{1mm}
+        \noindent 
+        \hfill
+        \noindent
+        \textcolor{red}{\rule{.5mm}{\textheight}} %das ist ja ne bloede Linie halt 27cm breit und nur ein halben 
+                                %millimeter lang, daher ziehen wir nun das AStA Logo hoch!
+        \vspace*{-\hochziehen}}
+      \parbox{.7\linewidth}{
+\hspace*{2mm}
+\noindent
+\vfill{} 
+\noindent{}
+\includegraphics[width=3.6cm,height=1.1cm]{../logos/astalogoonline}\hspace*{-.215mm}\raisebox{.5mm}{\includegraphics[width=4.6cm,height=1cm]{../logos/rwthlogoonline}}\\
+\vspace*{-4ex}
+
+%\hspace*{.7mm}
+\textcolor{red}{\ccc Allgemeiner Studierendenausschuss der RWTH Aachen}
+%\vspace*{-1ex}
+
+\noindent
+}
+\hspace{-4.8cm}
+    \parbox{.55\linewidth}
+    {
+      \noindent
+        \vspace*{-2ex}
+        \flushright{
+          {\ccb #2}\\
+          {\ccc #1}
+        }
+    }
+      \hspace*{-5mm} %Strich nach links ueber den senkrechten ziehen
+      \textcolor{red}{\rule{1.045\linewidth}{.9mm}}      
+      \hspace*{5mm}
+  \begin{minipage}{18.5cm}%damit genausoviel reingeht wie in den druck
+\vspace*{3ex}
+}
+    {
+      \vfill{}\hfill{}\vfill{}
+    \end{minipage}
+\end{minipage}
+\end{center}
+}               
+
+%Rueckseite sieht aus wie Vorderseite, hat halt nur Kontaktbox und Seite 2 drin.
+\newenvironment{rueckseite}[2]{
+\newpage
+\begin{center}
+  \begin{minipage}{\linewidth} 
+      \parbox[b]{3mm}{
+\hspace*{1mm}
+        \noindent 
+        \hfill
+        \noindent
+        \textcolor{red}{\rule{.5mm}{\textheight}} %das ist ja ne bloede Linie halt 27cm breit und nur ein halben 
+                                %millimeter lang, daher ziehen wir nun das AStA Logo hoch!
+        \vspace*{-\hochziehen}}
+      \parbox{.45\linewidth}{
+\hspace*{2mm}
+\noindent
+\vfill{} 
+\noindent{}
+\includegraphics[width=3.6cm,height=1.1cm]{../logos/astalogoonline}\hspace*{-.215mm}\raisebox{.5mm}{\includegraphics[width=4.6cm,height=1cm]{../logos/rwthlogoonline}}\\
+\vspace*{-3.5ex}
+
+\hspace*{.7mm}
+\textcolor{red}{\ccc Allgemeiner Studierendenausschuss der RWTH Aachen}
+\vspace*{-1ex}
+
+\noindent
+}  
+    \parbox{.55\linewidth}
+    {
+      \noindent
+        \vspace*{-2ex}
+        \flushright{
+          {\ccb #2}\\
+          {\ccc #1}
+        }
+    }
+\hspace*{-5mm} %Strich nach links ueber den senkrechten ziehen
+      \textcolor{red}{\rule{9.2cm}{1.8mm}}\raisebox{.9mm}{\textcolor{red}{\rule{10.3cm}{.9mm}}} %erst dick, dann duenn
+      
+      \hspace*{5mm}
+      \begin{minipage}{18.5cm}
+\vspace*{2ex}
+    }
+{
+\vspace*{\fill}
+\vfill
+
+\noindent
+%\fcolorbox{black}{light}{
+%\begin{minipage}[b]{0.48\textwidth}
+%\vfill{}
+
+%\scriptsize  
+%\input{../def/kontaktdaten}
+%\end{minipage}
+%}
+%\vspace*{0.2mm}
+%\input{../def/impressum}
+\end{minipage}
+\end{minipage}
+\end{center}
+}               
+
+%Die Befehle einbinden, die für wirklich alle Ausgabearten gleich sind...
+\input{../def/layout.tex}

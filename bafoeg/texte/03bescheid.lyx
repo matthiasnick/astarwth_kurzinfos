@@ -1,0 +1,157 @@
+#LyX file created by tex2lyx 1.6.7
+\lyxformat 264
+\begin_document
+\begin_header
+\textclass article
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize default
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{artikel}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Der Bescheid
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+Wenn das BAf"oG-Amt Deinen Antrag bearbeitet hat, bekommst Du den sogenannten BAf"oG Bescheid zugesendet. In diesem Bescheid ist aufgef"uhrt, wie viel Geld Du im kommenden Jahr monatlich an BAf"oG bekommst. Au"serdem kannst Du sehen, wie viel Geld Du laut BAf"oG Gesetz pro Monat brauchst und wie viel Dir Deine Eltern geben m"ussen.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+frage{
+\end_layout
+
+\end_inset
+
+Was mache ich, wenn ich glaube, dass sich das BAf"oG Amt bei der Berechnung vertan hat?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ Solltest Du das Gef"uhl haben, dass etwas mit Deinem Bescheid nicht stimmt, such m"oglichst schnell eine Beratungsstelle auf und vergewissere Dich, ob die Berechnung richtig ist. Du solltest Dich damit beeilen, da Du nur einen Monat Zeit hast gegen den BAf"oG Bescheid Widerspruch einzulegen.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+frage{
+\end_layout
+
+\end_inset
+
+Was mache ich, wenn meine Eltern nicht bereit sind ihren Anteil zu zahlen?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ In einem solchen Fall musst Du dem Amt f"ur Ausbildungsf"orderung glaubhaft machen, dass Deine Eltern nicht bereit sind, den Anteil zu "ubernehmen, den sie zu Deinem Bedarf beisteuern m"ussen. Dann ist es m"oglich, eine BAf"oG-Vorausleistung zu erhalten. Du bekommst dann das gesamte ben"otigte Geld. Dabei gehen Deine Unterhaltsanspr"uche auf das BAf"oG-Amt "uber, das sich wiederum bem"uhen wird, das Geld von Deinen Eltern einzutreiben. Dieses Verfahren ist meistens mit der Anh"orung Deiner Eltern verbunden und hat f"ur sie rechtliche Konsequenzen. Du solltest nat"urlich alles versuchen, um dieses Problem mit Deinen Eltern anderweitig zu kl"aren. In schwierigeren F"allen hilft es vielleicht, Sie auf obige Regelung hinzuweisen. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{artikel}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

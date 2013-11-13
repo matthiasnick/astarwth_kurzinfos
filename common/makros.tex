@@ -1,0 +1,15 @@
+%\newcommand{\astakino}{\includegraphics[height=1.5ex]{/opt/share/90sek/astakino}}
+%\newcommand{\filmkamera}{\includegraphics[height=2ex]{/opt/share/90sek/filmkamera}}
+%\newcommand{\filmstudio}{\includegraphics[height=1.5ex]{/opt/share/90sek/filmstudio}}
+\newcommand{\link}[1]{\raisebox{-1ex}{\includegraphics[height=3ex]{../logos/link}} \url{#1}}
+\newenvironment{aufzaehlung}{
+	\begin{list}{$\bullet$}{
+        	\setlength{\topsep}{.5ex}
+	        \setlength{\labelwidth}{2ex}
+        	\setlength{\parsep}{0mm}
+        	\setlength{\itemsep}{.5ex}
+        	\setlength{\leftmargin}{3ex}
+        }
+}{
+\end{list}
+}

@@ -1,0 +1,131 @@
+#LyX file created by tex2lyx 1.6.7
+\lyxformat 264
+\begin_document
+\begin_header
+\textclass article
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize default
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{artikel}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset VSpace -20pt
+\end_inset
+
+ beginn ein Bescheid in Deinem Briefkasten sein. Vorausgesetzt nat"urlich, Du hast auch alle Nachweise fr"uhzeitig eingereicht.
+\end_layout
+
+\begin_layout Standard
+
+Falls Du zwei Wochen danach noch keinen Bescheid hast, solltest Du Dich beim BAf"oG-Amt melden. Gibst Du Deinen Antrag erst wenige Wochen vor Semesterbeginn ab, musst Du damit rechnen eventuell mehrere Monate warten zu m"ussen. Du erh"altst dann eine Nachzahlung. Das BAf"oG-Amt gibt sich zwar bei Erstantr"agen alle M"uhe, schnell zu bescheiden. Wenn aber viele Antr"age sehr kurzfristig gestellt werden, dauert es nat"urlich recht lange.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+frage{
+\end_layout
+
+\end_inset
+
+Ich werde den Erstantrag samt Nachweisen nicht rechtzeitig abgeben k"onnen. Was muss ich beachten?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ Falls Du es nicht mehr bis Ende des ersten Studienmonats schaffst: Stell in jedem Fall einen formlosen Antrag beim BAf"oG-Amt, um Deinen Anspruch ab Studienbeginn nicht zu verlieren. Es reicht ein Brief mit dem Inhalt:
+\end_layout
+
+\begin_layout Standard
+
+"`Hiermit beantrage ich, {Vorname Nachname}, Leistungen nach dem BAf"oG."'
+\end_layout
+
+\begin_layout Standard
+
+Kannst Du auch die Frist zur Abgabe der restlichen Unterlagen nicht einhalten, die Dir vom BAf"oG-Amt auf Deinen "`Kurzantrag"' hin gesetzt wurde, sprich dies vorher mit dem Amt ab. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{artikel}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document

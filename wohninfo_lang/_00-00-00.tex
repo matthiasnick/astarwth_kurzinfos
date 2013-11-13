@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage{/opt/share/90sek/90sekonline}
+\verantwortlich{Florian Koch}
+\druck{AStA Druckerei}
+\begin{document}
+%<doppelseite>
+\begin{vorderseite}{Oktober 2002}{Wohn-Info} %erste Seite, Datum und Ueberschrift (90 Sekunden extra gibts ja auch\ldots)
+
+\include{texte/einleitung}
+%{
+%\vspace*{-6ex}
+%\noindent
+%}
+\vspace*{-2ex}
+
+\noindent
+\parbox[t]{1.025\linewidth}
+{
+  \zweispalten{.68\linewidth}
+  {  % linke Spalte
+    \input{texte/anlauf}
+    \input{texte/wohnheime}
+    \input{texte/kartei}
+\vspace*{-2ex}
+
+\noindent
+    \boxzt{Disclaimer}
+    {
+      Dieses Infoblatt soll den neuesten Stand der Dinge aus unserer Sicht verdeutlichen. Alle
+      Angaben sind nach bestem Wissen und Gewissen recherchiert, trotzdem übernehmen wir keinerlei Gewähr.
+    }
+  }
+  {  % rechte Spalte
+\vspace*{-5ex}
+
+\noindent
+\fcolorbox{black}{light}{\input{texte/verbindis}}
+\vspace*{1ex}
+
+\noindent
+    \input{texte/zuhause}
+  }
+}
+\end{vorderseite}
+%<zweiterparameter>
+
+\begin{rueckseite}{Wohn-Info} %Rueckseite, dass die immer so hei{\ss}t wie die Vorderseite, habe ich (noch) nicht hingekriegt.
+
+\zweispalten{.45\linewidth}
+{
+  \input{texte/mietvertrag}
+}
+{
+  \input{texte/melden}
+  \input{texte/wohngeld}
+  \input{texte/adressen}
+}
+\end{rueckseite}
+%<geschweifteKlammer>
+\end{document}  
+
+

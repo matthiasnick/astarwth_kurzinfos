@@ -1,0 +1,124 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8x]{inputenc}
+\setlength{\parindent}{0cm}
+
+%opening
+\title{Kurzinfo-HowTo}
+\author{Jan Bergner}
+\date{12. Oktober 2012}
+\begin{document}
+
+\maketitle
+
+\newpage
+
+\section{Grundsätzlich}
+Die hier dokumentierte AStA-Kurzinfo-Vorlage ist in \LaTeX{} erstellt. Daher ist es sinnvoll, wenn man zumindest über rudimentäre Kenntnisse mit diesem speziellen Textsatzsystem verfügt, wenn man hiermit arbeiten will.
+
+Eine grundsätzliche Übersicht über \LaTeX{}-Befehle sollte für jeden Menschen, der in der Lage ist, Google zu bedienen, aufzufinden sein. Deswegen verzichte ich hier darauf, Standard-\LaTeX{} zu erklären.
+
+
+\section{Datei- und Ordnerstruktur}
+Will man ein neues Kurzinfo erstellen, konn man auf den Ordner "\textit{Vorlage}" zurückgreifen. Man erstellt eine Kopie von diesem und benennt ihn nach Wunsch. Dabei sollte man im Ordner \textit{Kurzinfo-Vorlage} bleiben, da man ansonsten in den Vorlage-Dateien die Pfade zu den Ressourcen (Bilder und Makros) ändern müsste.
+
+\subsection*{Das Hauptddokument}
+In diesem Ordner befindet sich zum Einen die Datei \textit{main.tex}, die - wie der Name impliziert - das \LaTeX{}-Hauptdokument darstellt. Diese öffne man mit seinem Lieblinx-Texteditor und editiere sie nach Wunsch. (Insbesondere stehen hier so Dinge wie Titel und Stand drinne.)\\
+
+Beispiel:
+\begin{verbatim}
+\begin{vorderseite}{Stand Monat YYYY}{Ein-Kurzinfo}
+\end{verbatim}
+In dieser Zeile Quelltext definiert man, was im Kopf der Vorderseite stehen soll.
+
+Hier fügt man des Weiteren auch alle weiteren Dateien\footnote{Also zum Beispiel die eigentlichen Artikel.} ein.\\
+
+Darüber hinaus gibt es die Zeilen
+\begin{verbatim}
+\verantwortlich{J. Sch"ope} % HIER VISDP EINTRAGEN
+\druck{AStA Druckerei}
+\auflage{ca. 5000} %HIER APPROXIMIERTE AUFLAGE EINTRAGEN
+\ausgabennummer{168} %% BITTE NACHSEHEN
+\end{verbatim}
+die selbsterklärend sein dürften, aber eben auch angepasst werden müssen.
+
+Im Übrigen mag einem hier auffallen, dass statt eines \textit{ö} hier ein \textit{"o} steht. In der Tat funktionieren weder Umlaute noch das \textit{ß}, wenn man sie "normal" einträgt. Man kann allerdings dennoch normal tippen (oder copy-pasten) und danach ein Shell-Skript ausführen, dass die nötigen Ersetzungen vornimmt. Dazu später mehr.\\
+
+
+
+\textbf{\huge ACHTUNG:}\\
+In der Main werden auch die Formatvorlagen eingebunden. Dies geschieht mit dem unscheinbaren Befehl:
+\begin{verbatim}
+\usepackage{kurzinfo}
+\end{verbatim}
+Hiervon sollte man \textbf{unbedingt} die Finger lassen, wenn man nicht \textbf{genau} weiß, was man tut. Sonst hat das das Potential, viel von der Automatisierung kaputt zu machen.
+
+\subsection*{Die Artikel}
+Die Artikel enthalten die eigentlichen Inhalte der Kurzinfos. Sie befinden sich im Unterordner "\textit{texte}" und müssen in der \textit{main.tex} an passender Stelle eingebunden werden.
+
+Im \textit{Vorlage}-Ordner befinden sich mehrere Beispielartikel, die demonstrieren sollen, wie man diese benutzt. Die Grundsätzliche Struktur ist dabei immer
+\begin{verbatim}
+\begin{artikel}{Titel}
+Text.
+\end{artikel}
+\end{verbatim}
+
+Innerhalb der Artikel-Umgebung kann dabei mit relativ Standard-\LaTeX{} gearbeitet werden.
+
+
+\section{PDFs erstellen}
+Wie immer bei \LaTeX{} muss man am Ende noch das eigentliche PDF-Dokument erstellen. Dazu öffnet man sich ein Terminal, das man im Hauptmenü unter\\
+
+\textit{Anwendungen}$\rightarrow$\textit{Zubehör}$\rightarrow$\textit{Terminal}\\
+
+findet. Hier wechselt man nun mit dem Befehl \textit{cd} ins Arbeitsverzeichnis des Kurzinfos. Beispiel:
+\begin{verbatim}
+ cd '/home/AStA/AStA_2012-2013/Referat-Publikationen/Kurzinfo-Vorlagen/Vorlage'
+\end{verbatim}
+
+{\large Ab hier kann (und sollte) mit den bereitliegenden \textbf{Shell-Skripten} gearbeitet werden.}
+
+\subsection*{Bevor das Info fertig ist}
+Natürlich will man sich - während man am Kurzinfo 'rumschreibt - zwischenzeitlich auch ansehen, wie das Ergebnis denn gerade aussehen würde.
+
+Dazu gibt es das Shell-Skript \textit{compile.sh}, das man mit dem Terminal-Befehl
+\begin{verbatim}
+./compile.sh
+\end{verbatim}
+ausführen\footnote{Übrigens: So lange der PDF-Viewer aktiv ist, ist das Terminal blockiert. (Man kann das Skript also nicht neu ausführen.) Innerhalb des Terminals kann man den Viewer mit \textit{STRG+C} beenden.} kann. Dieses führt den normalen \LaTeX{}-Compiler aus und zeigt am Ende das Ergebnis an. Wenn es beim kompillieren Fehler gibt, müssen diese natürlich behoben werden.
+
+Das Ergebnis ist die "Online-Version", also das "komplette" (zumeist rot-schwarze) Kurzinfo, anhand dessen man nun zu Ende layouten kann.
+
+\subsection*{Nach dem Layouten}
+Wenn alles am Layout fertig ist, will man sich natürlich das Ergebnis-PDF erstellen. Zusätzlich braucht es aber auch noch ein PDF, dass den schwarzen Teil des Drucks enthält und eines, das den roten Teil enthält, damit beides getrennt voneinander risografiert werden kann. Dafür gibt es das Skript \textit{compile\_all.sh}. In diesem Skript gibt es oben die Zeile
+\begin{verbatim}
+FILENAME="Ein-Kurzinfo"
+\end{verbatim}
+an dieser Stelle kann man - zwischen den Anführungszeichen - den Dateinamen eintragen, den das fertige PDF am Ende haben soll. (Hier wäre das also "\textit{Ein-Kurzinfo.pdf}".)
+Die rein schwarze bzw. die rein rote PDF-Datei erhalten die Suffixe "\textit{\_sw}" bzw. "\textit{\_red}".
+
+Ausgeführt wird das Skript dabei vom Terminal mit
+\begin{verbatim}
+./compile_all.sh
+\end{verbatim}
+
+\subsection*{Leere erste Seite}
+Manchmal kommt es vor, dass \LaTeX{} eine leere erste Seite in den PDFs erstellt. (Das passiert immer dann, Wenn das erstellte Dokument - eigentlich - zu voll für zwei Seiten ist, und man die Reduktion auf selbige nur mit diversen Layout-Tricks hinbekommen hat.) Wenn es dazu kommt, gibt es das Shell-Skript \textit{PDFs\_kuerzen.sh}, dass durch den Terminal-Befehl
+\begin{verbatim}
+./PDFs_kuerzen.sh
+\end{verbatim}
+aufgerufen wird und die überflüssige erste Seite beseitigt.
+
+Dieses Skript wird natürlich deswegen nicht automatisch ausgeführt, weil es ja manchmal auch direkt funktioniert und nur ein 2-Seiten-PDF von \LaTeX{} erzeugt wird.
+
+\section{Umlaute, ß und die groß geschriebene persönliche Anrede}
+In den AStA-Publikationen sollen "Du", "Ihr" und ihre Deklinationen - also Personalpronomina der direkten Anrede und ihre Deklinationen - groß geschrieben werden. Die meisten klein geschriebenen Personalpronomina können auf einen Schlag mit dem Skript \textit{Umlaute\_ersetzen.sh} in allen Artikeln und im Hauptdokument ersetzt werden. Wie der Name impliziert, kümmert sich dieses Skript auch um die Umlaute und das ß. Wenn also das Compile-Skript lauter Fehler \'a la "Ich kenne keine Umlaute" ausspuckt, will man einmal
+\begin{verbatim}
+./Umlaute_ersetzen.sh
+\end{verbatim}
+ins Terminal tippen.
+
+Leider muss man gerade bei den Pronomina vorsichtshalber doch nochmal selber nachschauen.
+
+\end{document}
+
+

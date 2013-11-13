@@ -1,0 +1,279 @@
+#LyX file created by tex2lyx 1.6.7
+\lyxformat 264
+\begin_document
+\begin_header
+\textclass article
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize default
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+
+\begin_inset VSpace -0.1cm
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{artikel}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Die 5 h"aufigsten Fehler beim Erstantrag
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset VSpace -0.6cm
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+Den Antrag zu sp"at abgeben. 
+\end_layout
+
+\begin_layout Enumerate
+
+Sich nicht erkundigen, ob von Verwandten Geld auf Deinen Namen angelegt wurde, von dem Du nichts wei"st. (Dieses wird in jedem Fall Dir zugerechnet und gilt bei einem etwaigen Datenabgleich als nicht angegebenes Verm"ogen.) 
+\end_layout
+
+\begin_layout Enumerate
+
+Den ausgef"ullten Erstantrag mitten im ersten Semester abgeben, ohne zum Anfang des Semesters einen formlosen Antrag gestellt zu haben. (Du verlierst Deine Anspr"uche vom Anfang des Semesters bis zum Eingang Deines Antrags). 
+\end_layout
+
+\begin_layout Enumerate
+
+Sich bei kritischen Fragen nicht beraten lassen. Insbesondere bei der Einkommensaktualisierung. 
+\end_layout
+
+\begin_layout Enumerate
+
+Bei einem "`eigenartigen"' Bescheid keine Beratung einholen. (Nach einem Monat kannst Du formal gesehen nicht mehr widersprechen und der Bescheid ist f"ur ein Jahr f"ur Dich rechtsverbindlich). 
+\end_layout
+
+\begin_layout Standard
+
+Linkliste/Weitere Informationen 
+\end_layout
+
+\begin_layout Itemize
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+href{http://www.bafoeg.bmbf.de}{
+\end_layout
+
+\end_inset
+
+www.bafoeg.bmbf.de
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ - Bundesministerium f"ur Bildung und Forschung (incl. BAf"oG-Rechner) 
+\end_layout
+
+\begin_layout Itemize
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+href{http://www.studentenwerk-aachen.de}{
+\end_layout
+
+\end_inset
+
+www.studentenwerk-aachen.de
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ - BAf"oG Amt Aachen 
+\end_layout
+
+\begin_layout Itemize
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+href{http://www.studis-online.de}{
+\end_layout
+
+\end_inset
+
+www.studis-online.de
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ und 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+href{http://www.bafoegrechner.de}{
+\end_layout
+
+\end_inset
+
+www.bafoegrechner.de
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ aktuelle Infos rund ums BAf"oG 
+\end_layout
+
+\begin_layout Standard
+
+Der AStA bietet auch eine pers"onliche Beratung an. Die genauen Termine findest Du in der unten stehenden Kontaktbox oder auf unserer Webseite unter 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+href{http://www.asta.rwth-aachen.de/beratung}{
+\end_layout
+
+\end_inset
+
+www.asta.rwth-aachen.de/beratung
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+.
+\newline
+
+\end_layout
+
+\begin_layout Standard
+
+Eine vorherige Terminabsprache ist nicht notwendig. Die Beratung ist kostenlos und erfolgt selbstverst"andlich vertraulich. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{artikel}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,87 @@
+#LyX file created by tex2lyx 1.6.7
+\lyxformat 264
+\begin_document
+\begin_header
+\textclass article
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize default
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{artikel}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset VSpace -19pt
+\end_inset
+
+ wird im Zentralen Pr"ufungsamt oder im Fachbereich ausgestellt. Die Bedingungen f"ur die Unterschrift legen die Fachbereiche fest. Erkundige Dich also am Anfang Deines Studiums, was Du schaffen musst, um den Leistungsnachweis unterschrieben zu bekommen. Wenn Du den Leistungsnachweis nicht abgeben kannst, bekommst Du kein BAf"oG mehr. Es reicht dann auch nicht, den Nachweis in einem sp"ateren Semester abzugeben. Um den BAf"oG Anspruch wieder zu erhalten, musst Du die verlorene Zeit aufholen -- das hei"st, in den folgenden Semestern entsprechend mehr Leistungen nachweisen. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{artikel}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document

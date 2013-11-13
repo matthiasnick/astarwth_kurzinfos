@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="100"
+   height="100"
+   viewBox="0 0 100 100"
+   id="svg2"
+   xml:space="preserve"><metadata
+   id="metadata28"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs26" />
+<g
+   id="Captions"
+   style="display:none">
+</g>
+<g
+   id="Your_Icon"
+   style="fill:#b3b3b3">
+	<path
+   d="M 40.052,26.288 C 36.251,26.288 32.998,24 31.639,21 H 30.546 26 v 4.264 9.535 c 0,2.23 0.79,3.746 1.566,5.849 l 4.307,9.441 C 32.264,51.139 33.604,52 34.771,52 h 10.562 c 1.164,0 2.427,-0.861 2.815,-1.912 l 4.337,-9.437 C 53.262,38.549 54,37.029 54,34.799 V 25.264 21 h -4.442 -1.093 c -1.361,3 -4.614,5.288 -8.413,5.288 z"
+   id="path6"
+   style="fill:#b3b3b3" />
+	<rect
+   width="2"
+   height="2"
+   x="41"
+   y="0"
+   id="rect8"
+   style="fill:#b3b3b3" />
+	<rect
+   width="2"
+   height="2"
+   x="45"
+   y="0"
+   id="rect10"
+   style="fill:#b3b3b3" />
+	<polygon
+   points="47,4 47,12 45,12 45,18 52,18 52,0 50,0 50,2.105 50,4 "
+   id="polygon12"
+   style="fill:#b3b3b3" />
+	<path
+   d="M 45,4 H 35 v 6 h 2 v 13.329 c 0,0 0.942,1.062 3.064,1.062 2.122,0 2.936,-1.062 2.936,-1.062 V 10 h 2 V 4 z"
+   id="path14"
+   style="fill:#b3b3b3" />
+	<polygon
+   points="35,18 35,12 33,12 33,4 30,4 30,2.105 30,0 28,0 28,18 "
+   id="polygon16"
+   style="fill:#b3b3b3" />
+	<rect
+   width="2"
+   height="2"
+   x="37"
+   y="0"
+   id="rect18"
+   style="fill:#b3b3b3" />
+	<rect
+   width="2"
+   height="2"
+   x="33"
+   y="0"
+   id="rect20"
+   style="fill:#b3b3b3" />
+	<path
+   d="m 60,99.667 c -12.683,0 -23,-9.421 -23,-21 V 56 h 6 v 22.667 c 0,8.271 7.626,15 17,15 9.374,0 17,-7.626 17,-17 V 54 C 77,41.318 87.317,31 100,31 v 6 c -9.374,0 -17,7.626 -17,17 v 22.667 c 0,12.683 -10.317,23 -23,23 z"
+   id="path22"
+   style="fill:#b3b3b3" />
+</g>
+</svg>

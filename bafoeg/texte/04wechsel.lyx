@@ -1,0 +1,209 @@
+#LyX file created by tex2lyx 1.6.7
+\lyxformat 264
+\begin_document
+\begin_header
+\textclass article
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize default
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{artikel}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Hochschul- und Fachwechsel
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ W"ahrend des BAf"oG Empfangs gibt es auch die M"oglichkeit die Hochschule oder das Studienfach zu wechseln. Hierbei sind aber einige Punkte zu beachten.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+frage{
+\end_layout
+
+\end_inset
+
+Ich habe bereits an einer anderen Hochschule dasselbe Fach studiert und wechsle zum Anfang des n"achsten Semesters an die RWTH.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ Du bekommst im Allgemeinen weiter BAf"oG. Nat"urlich musst Du dazu wie immer einen Folgeantrag stellen, falls Dein Bewilligungszeitraum abl"auft. Au"serdem wird in Bezug auf den "`Leistungsnachweis"' (siehe unten), den Du zum 5. Fachsemester erbracht haben musst, keine R"ucksicht auf Hochschulwechsel genommen. Da Du mit Sicherheit Reibungsverluste hast, ist es sinnvoll, die Studienberatung in Anspruch zu nehmen, um zu kl"aren wie Du den Nachweis rechtzeitig erbringen kannst.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+frage{
+\end_layout
+
+\end_inset
+
+Ich habe mein Studienfach/Nebenfach gewechselt. Was muss ich beachten?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ Dies ist ein kompliziertes Thema, das wir hier nur kurz anrei"sen k"onnen. Ein Fachwechsel ohne Verlust Deines BAf"oG-Anspruchs ist im Allgemeinen nur bis zum Ende des dritten Semesters m"oglich. Innerhalb der ersten beiden Semester geht das relativ problemlos. Ab dem dritten Semester musst Du eine schriftliche Begr"undung formulieren. Damit Du bei der Begr"undung nichts falsch machst, w"urden wir Dir empfehlen auf jeden Fall eine Beratung in Anspruch zu nehmen. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{artikel}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+fcolorbox{black}{light}{
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+begin{minipage}[b]{0.4
+\backslash
+textwidth}
+\end_layout
+
+\begin_layout Standard
+
+{
+\backslash
+huge
+\backslash
+textbf{Achtung!!!}}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Standard
+
+Zwischen Bachelor und Master kann maximal einen Monat lang weiter BAf"oG-F"orderung stattfinden. Wenn mehr als ein Monat zwischen dem Abschluss Deines Bachelor-Studiums und der Aufnahme Deines Masterstudiums liegt, musst Du Arbeitslosengeld II beantragen. Sonst musst Du eventuell Geld zur"uckzahlen!
+\end_layout
+
+\begin_layout Standard
+
+
+\backslash
+end{minipage}
+\end_layout
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document

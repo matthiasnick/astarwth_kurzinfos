@@ -1,0 +1,103 @@
+\documentclass{article}
+\usepackage{../common/kurzinfo}
+\newfont{\klitzeklein}{cmss10 at 8.5pt}
+
+\newcommand{\frage}[1]{\vspace*{1ex}
+
+\textbf{#1}\\
+}
+
+\verantwortlich{Anna Wilhelmi} % HIER VISDP EINTRAGEN
+\druck{AStA Druckerei}
+\auflage{ca. 200} %HIER APPROXIMIERTE AUFLAGE EINTRAGEN
+\ausgabennummer{1} %% BITTE NACHSEHEN
+\begin{document}%{Kurzinfo- Studieren mit Kind}
+%<doppelseite>
+%% DATUM KORRIGIEREN !!!%%%%
+
+\begin{vorderseite}{Stand September 2013}{Studieren mit Kind} %erste Seite, Datum und Ueberschrift
+\vspace{-10pt}
+\zweispalten{.54\linewidth}
+{%Kommentar: linke Spalte 
+
+%Texte einbinden
+\input{texte/01}
+\vspace{-4pt}
+\input{texte/02}
+}
+{%Kommentar: rechte Spalte
+
+\input{texte/03}
+\input{texte/05}
+
+% IMPRESSUM UND CO.
+\fcolorbox{black}{light}{%use white for red style sheet
+\begin{minipage}[b]{0.42\textwidth}
+\parbox{\linewidth}{
+\parbox[t]{.49\linewidth}{
+\scriptsize %SCHRIFTGFR"O"sE F"UR IMPRESSUM
+
+\textbf{\footnotesize Kontakt zum AStA}\\
+Allgemeiner Studierendenausschuss \\
+der RWTH Aachen\\
+Peterstr. 44-46, 52062 Aachen\\
+Tel.: 0241 / 80 - 93792 \\
+Fax.: 0241 / 80 - 92394 \\ \\
+\url{http://www.asta.rwth-aachen.de/}\\
+\email{asta@asta.rwth-aachen.de} \\
+\rule{2\linewidth}{.5pt}
+\\
+}
+\parbox[t]{.49\linewidth}{
+
+\scriptsize
+\textbf{\footnotesize \"Offnungszeiten}\\
+Mo. -- Fr. \hfill{} 10\Uhr{} -- 14\Uhr{} Uhr\hspace*{1ex}\\
+\vspace*{0.2ex}
+
+\textbf{\footnotesize{Beratungs- und Servicezeiten}}\\
+siehe Homepage\\
+
+\textbf{\footnotesize AStA Sitzungen}\\
+\scriptsize Mo. 14\Uhr{} Uhr (nat\"urlich \"offentlich!)\\
+
+}
+
+\vspace*{-1ex}
+
+}
+\begin{tabular}{ll}
+\footnotesize{\textbf{Impressum:}} & \footnotesize{AStA der RWTH Aachen,}\\
+&\footnotesize{Peterstra"se 44-46, 52062 Aachen}\\
+\footnotesize{\textbf{ViSdP:}} & \footnotesize{Anna Wilhelmi,}\\
+&\footnotesize{\email{soziales@asta.rwth-aachen.de}}\\
+\footnotesize{\textbf{Redaktion:}}& \footnotesize{Jana Kr"uger, Jan Bergner}\\
+\end{tabular}
+\end{minipage}
+}%fcolorbox endet hier
+}
+\fcolorbox{black}{light}{\parbox{\linewidth}{\textbf{Haftungsausschluss}%Beispielbox
+
+{\footnotesize Verbindliche Ausk"unfte erteilen die jeweils zust"andigen Stellen. AStA und Redaktion haften nicht f"ur die Inhalte dieses Informationsblattes.}}}
+\vspace*{-2cm}
+\end{vorderseite}
+
+%<zweiterparameter>
+\begin{rueckseite}{Stand September 2013}{Studieren mit Kind} %Rueckseite, dass die immer so hei"st wie die Vorderseite, habe ich (noch) nicht hingekriegt.
+\zweispalten{.40\linewidth}%Breite der linken Spalte, der Kontaktblock sitzt im Stylefile\ldots
+{
+
+\input{texte/04}
+}
+{
+\input{texte/04prime}
+}
+
+\vspace{-5ex}
+
+%\input{texte/linkliste}
+\end{rueckseite}
+%<geschweifteKlammer>
+\end{document}  
+
+\renewcommand{\thefootnote}{\arabic{footnote}}

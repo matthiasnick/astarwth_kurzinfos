@@ -1,0 +1,192 @@
+\usepackage[a4paper,pdfpagelabels,pdftitle={90 Sekunden},pdfauthor={AStA der RWTH},pdfsubject={Kurzinfo des AStA der RWTH Aachen},pdfkeywords={Allgemeiner Studierendenausschuss Kurzinfo Informationsblatt},bookmarks=false,bookmarksnumbered=true,linkcolor=green,urlcolor=blue,pdfpagemode=UseOutlines]{hyperref} %fuer den AcrobatReader
+\usepackage[dvips]{thumbpdf} %zum Vorschaubildchenmachen
+\usepackage{eurosym}
+
+% weird fonts :-)
+\usepackage{suetterl}
+\usepackage{yfonts}
+
+\newlength{\tlength}
+\newcommand{\zweispalten}[3]{
+\setlength{\tlength}{#1}
+\parbox[t]{\tlength}{#2}
+\setlength{\tlength}{\spaltenbreite}
+\hspace*{3mm}
+\addtolength{\tlength}{-#1}
+\addtolength{\tlength}{-8mm}
+\parbox[t]{\tlength}{#3}
+}
+
+\newcommand{\boxzt}[3][\linewidth]{%\hspace*{.1pt}
+%
+\parbox[t]{#1}{
+\fcolorbox{black}{light}{
+\parbox{.98\linewidth}{
+\textbf{\large #2}\\
+#3}}}}
+
+
+\newenvironment{artikel}[1]{
+
+\noindent
+  \begin{minipage}[t]{\linewidth}
+    \begin{Large} 
+      \setlength{\baselineskip}{2ex}
+      \textbf{#1}\\[-1.5ex]
+    
+\end{Large}
+\sloppy
+\vspace{2mm}
+  }{
+  \end{minipage}
+\vspace*{4mm}
+}
+
+\newenvironment{kulturartikel}[4]{
+\begin{artikel}{\mbox{#1:} #4 {\it \mbox{#2}}
+%\hfill{}
+%\begin{normalsize}\textit{#2}\end{normalsize}
+}
+\textbf{#3}
+
+AStA Kultur pr\"asentiert zusammen mit PontStage:
+
+}{
+
+\autorIn{asta kultur}
+\end{artikel}
+}
+
+\newenvironment{fsuetterlin}{
+	\begin{suetterlin}
+	\begin{Large}
+}{
+	\end{Large}
+	\end{suetterlin}
+}
+\newenvironment{ffraktur}{
+	\begin{frakfamily}
+	\begin{normalsize}
+%	\fontsize{14}{14}
+}{
+	\end{normalsize}
+	\end{frakfamily}
+}
+
+\newenvironment{buchvorstellung}[2][Neu in der Bibliothek der Studierendenschaft]{
+\noindent
+  \begin{minipage}[t]{\linewidth}
+ \begin{Large} 
+      \setlength{\baselineskip}{2ex}
+      \textbf{#2}\\[-1ex]
+   \end{Large}
+\vspace*{1ex}
+
+\parbox[t]{.1\linewidth}{
+\setlength{\fboxsep}{0pt}
+\fcolorbox{lesslight}{light}
+{
+\parbox{\linewidth}{
+\includegraphics[width=\linewidth]{../logos/buch}
+\vspace*{.1ex}
+
+\hspace*{-2ex}
+\begin{tabular}{cc}
+\rotatebox{90}{\textbf{#1}} &
+\hspace*{-2ex} \rotatebox{90}{\small \texttt{www.stud.rwth-aachen.de/buecher}}
+\end{tabular}
+}
+}
+}
+\hspace*{.05\linewidth}
+\begin{minipage}{.85\linewidth}
+\sloppy
+  }{
+\vspace*{\fill}
+
+\end{minipage}
+\end{minipage}
+\vspace*{1ex}
+
+}
+
+
+
+\newcommand{\antifaticker}[1]{
+\begin{minipage}[b]{\linewidth}
+\parbox{2cm}{\includegraphics[width=\linewidth]{../logos/hand}}
+\newlength{\fboxbackup}
+\setlength{\fboxbackup}{\fboxsep}
+\setlength{\fboxsep}{1pt}
+\parbox{.855\linewidth}{
+\fcolorbox{black}{black}{
+\parbox[t]{\linewidth}{
+\centerline{\textbf{\textcolor{white}{\grb +++ Zur Förderung der aktiven Toleranz und eines staatsbürgerlichen Verantwortungsbewußtseins +++~}}}}}
+\vspace*{.1ex}
+
+\parbox{\linewidth}{\gra #1}
+\vspace*{\fill}
+
+}
+\end{minipage}
+\setlength{\fboxsep}{\fboxbackup}
+}
+
+\newlength{\Terlength}
+\newcommand{\Termine}[1]{
+  \setlength{\Terlength}{\linewidth}
+  \addtolength{\Terlength}{-4.5mm}
+  \fcolorbox{black}{light}{
+    \begin{minipage}[t]{\Terlength}
+      \textbf{\LARGE Termine}\par \vspace*{-1.2ex}
+      \leftmargini4mm
+      \begin{itemize}
+        \itemsep=-.5ex
+        #1
+      \end{itemize}
+    \end{minipage}
+  }
+  \vspace{2mm}
+
+}
+
+\newlength{\Infolength}
+\newcommand{\Infobox}[2]{
+  \setlength{\Infolength}{\linewidth}
+  \addtolength{\Infolength}{-4.5mm}
+  \fcolorbox{black}{light}{
+    \begin{minipage}[t]{\Infolength}
+      \textbf{\LARGE #1}\par \vspace*{1ex}
+      \leftmargini4mm
+       #2
+    \end{minipage}
+  }
+  \vspace{2mm}
+
+}      
+
+
+\newcommand{\autorIn}[1]
+{\raggedleft{\mbox{\textit{(#1)\- }}}} %alt
+
+\newcommand{\autor}[1]
+{\autorIn{#1}} %neu
+
+\newcommand{\doppelseite}[2]
+{
+%\begin{minipage}{\paperwidth}
+\parbox[t]{.5\linewidth}
+{\noindent
+#1
+}
+\hspace*{5mm}
+\parbox[t]{.5\linewidth}
+{\noindent
+#2
+}
+%\end{minipage}
+}
+
+
+
+

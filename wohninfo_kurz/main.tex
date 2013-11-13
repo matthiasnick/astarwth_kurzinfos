@@ -1,0 +1,67 @@
+\documentclass{article}
+\usepackage{<Vorlage>}
+\verantwortlich{Lea Heuser}
+\druck{AStA Druckerei}
+\ausgabennummer{125}
+\begin{document}
+%<doppelseite>
+\begin{vorderseite}{Stand: Juli 2004}{Wohn-Kurzinfo} %erste Seite, Datum und Ueberschrift (90 Sekunden extra gibts ja auch\ldots)
+
+\include{texte/einleitung}
+%{
+%\vspace*{-6ex}
+%\noindent
+%}
+\vspace*{-2ex}
+
+\noindent
+\parbox[t]{1.025\linewidth}
+{
+  \zweispalten{.68\linewidth}
+  {  % linke Spalte
+    \input{texte/anlauf}
+    \input{texte/wohnheime}
+    \input{texte/kartei}
+    \input{texte/zeitungen}
+   }
+  {  % rechte Spalte
+\vspace*{-5ex}
+
+\noindent
+\fcolorbox{black}{light}{\input{texte/verbindis}}
+\vspace*{1ex}
+
+\noindent
+    \input{texte/wohngeld}
+    \input{texte/wbs}
+  }
+}
+
+  \hrulefill 
+   
+
+   \textbf{\small Disclaimer}
+    { \footnotesize
+      Dieses Infoblatt soll den neuesten Stand der Dinge aus unserer Sicht verdeutlichen. Alle
+      Angaben sind nach bestem Wissen und Gewissen recherchiert, trotzdem übernehmen wir keinerlei Gewähr.
+    }
+\vspace*{-4ex}
+\end{vorderseite}
+%<zweiterparameter>
+
+\begin{rueckseite}{Wohn-Kurzinfo} %Rueckseite, dass die immer so hei{\ss}t wie die Vorderseite, habe ich (noch) nicht hingekriegt.
+
+\zweispalten{.39\linewidth}
+{
+  \input{texte/mietvertrag}
+}
+{
+  \input{texte/melden}
+  \vspace*{-3ex}
+
+  \input{texte/adressen}
+  \vspace*{1ex}
+}
+\end{rueckseite}
+%<geschweifteKlammer>
+\end{document}  

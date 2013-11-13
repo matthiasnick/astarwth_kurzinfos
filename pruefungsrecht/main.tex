@@ -1,0 +1,133 @@
+\documentclass{article}
+\usepackage{../common/kurzinfo}
+%\usepackage{lmodern}
+%\newfont{\klitzeklein}{cmss10 at 8.5pt}
+
+\newcommand{\frage}[1]{\vspace*{1ex}
+
+\textbf{#1}\\
+}
+
+\renewenvironment{artikel}[1]{
+
+\noindent
+  \begin{minipage}[t]{\linewidth}
+    \begin{large} 
+      \setlength{\baselineskip}{2ex}
+      \textbf{#1}\\[-3ex]
+    
+\end{large}
+\sloppy
+\vspace{2mm}
+  }{
+  \end{minipage}
+\vspace*{4mm}
+}
+
+\verantwortlich{M. Nick} % HIER VISDP EINTRAGEN
+\druck{AStA Druckerei}
+\auflage{ca. 500} %HIER APPROXIMIERTE AUFLAGE EINTRAGEN
+%\ausgabennummer{168} %% BITTE NACHSEHEN
+\begin{document}
+%<doppelseite>
+%% DATUM KORRIGIEREN !!!%%%%
+
+\begin{vorderseite}{Stand 18. November 2013}{Prüfungsrecht} %erste Seite, Datum und Ueberschrift
+\zweispalten{.5\linewidth}
+{%Kommentar: linke Spalte 
+
+%Texte einbinden
+\vspace{-3.0ex}
+\input{texte/einleitung}
+\input{texte/ansprechpartner}
+\input{texte/anwalt}
+\input{texte/pruefungsordnung}
+%\input{texte/rpo}
+\begin{artikel}{\Large Prüfungsanfechtung}\end{artikel}
+\vspace{-3ex}
+\input{texte/kausalitaet}
+
+}
+{%Kommentar: rechte Spalte
+\input{texte/ueberdenken}
+\input{texte/widerspruch}
+\input{texte/klage}
+\input{texte/kosten}
+\input{texte/folgen}
+}
+
+\vspace*{-2cm}
+\end{vorderseite}
+
+%<zweiterparameter>
+\begin{rueckseite}{Stand 18. November 2013}{Prüfungsrecht} %Rueckseite, dass die immer so hei"st wie die Vorderseite, habe ich (noch) nicht hingekriegt.
+\zweispalten{.425\linewidth}%Breite der linken Spalte, der Kontaktblock sitzt im Stylefile\ldots
+{
+\input{texte/ruecktritt}
+\input{texte/bedingungen}
+\input{texte/einsicht}
+}
+{
+\input{texte/wiederholung}
+\input{texte/multiplechoice}
+
+
+% IMPRESSUM UND CO.
+\fcolorbox{black}{light}{%use white for red style sheet
+\begin{minipage}[b]{0.5\textwidth}
+\parbox{\linewidth}{
+\parbox[t]{.49\linewidth}{
+\scriptsize %SCHRIFTGFRÖßE FÜR IMPRESSUM
+
+\textbf{\footnotesize Kontakt zum AStA}\\
+Allgemeiner Studierendenausschuss \\
+der RWTH Aachen\\
+Peterstr. 44-46, 52062 Aachen\\
+Tel.: 0241 / 80 - 93792 \\
+Fax.: 0241 / 80 - 92394 \\ \\
+\url{http://www.asta.rwth-aachen.de/}\\
+\email{asta@asta.rwth-aachen.de} \\
+\rule{2\linewidth}{.5pt}
+\\
+}
+\parbox[t]{.49\linewidth}{
+
+\scriptsize
+\textbf{\footnotesize \"Offnungszeiten}\\
+Mo. -- Fr. \hfill{} 10\Uhr{} -- 14\Uhr{} Uhr\hspace*{1ex}\\
+\vspace*{0.2ex}
+
+\textbf{\footnotesize{Beratungs- und Servicezeiten}}\\
+siehe Homepage\\
+
+\textbf{\footnotesize AStA Sitzungen}\\
+\scriptsize Fr. 14\Uhr{} Uhr (natürlich öffentlich!)\\
+
+}
+
+\vspace*{-1ex}
+
+}
+
+
+
+
+
+\footnotesize{\textbf{Impressum:} AStA der RWTH Aachen, Peterstra"se 44-46, 52062 Aachen}\\
+\footnotesize{\textbf{ViSdP:} Johanna Sch"ope, \email{oeffentlichkeit@asta.rwth-aachen.de}}
+	
+
+\end{minipage}
+}%fcolorbox endet hier
+}
+
+\vspace{3ex}
+\fcolorbox{black}{light}{\parbox{\linewidth}{\textbf{Haftungsausschluss}%Beispielbox
+
+{\footnotesize Verbindliche Auskünfte erteilen die jeweils zuständigen Stellen. AStA und Redaktion haften nicht für die Inhalte dieses Informationsblattes.}}}
+%\input{texte/linkliste}
+\end{rueckseite}
+%<geschweifteKlammer>
+\end{document}  
+
+

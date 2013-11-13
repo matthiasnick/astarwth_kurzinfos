@@ -1,0 +1,871 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<room-list>
+  <room>
+    <build-name>SuperC</build-name>
+    <build-nr>1040</build-nr>
+    <address>Templergraben 57</address>
+    <seats>268</seats>
+    <room-name>Sparkassenforum</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>09:00 - 22:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>false</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+  <room>
+    <build-name>MOGAM</build-name>
+    <build-nr>1060</build-nr>
+    <address>Kármánstr. 15a</address>
+    <seats>140</seats>
+    <room-name>MOGAM</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>07:00 - 20:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>07:00 - 20:00</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>07:00 - 20:00</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>false</silent>
+    </specials>
+    <comment>Raum 208 nicht barrierefrei</comment>
+  </room>
+
+  <room>
+    <build-name>MOGAM</build-name>
+    <build-nr>1060</build-nr>
+    <address>Kármánstr. 15a</address>
+    <seats>16</seats>
+    <room-name>Korea-Treff</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:00 - 20:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>false</silent>
+    </specials>
+    <comment>Betrieb durch Koreanische Studentenvereinigung (KSV)</comment>
+  </room>
+  
+  <room>
+    <build-name>Couven-Gymnasium</build-name>
+    <build-nr>1070</build-nr>
+    <address>Kármánstr. 17~-~19</address>
+    <seats>24</seats>
+    <room-name>Flur Anglistik</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>07:00 - 20:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>false</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>false</power>
+      <silent>true</silent>
+    </specials>
+    <comment></comment>
+  </room>
+ 
+  <room>
+    <build-name>HKW</build-name>
+    <build-nr>1132</build-nr>
+    <address>Wüllnerstr. 1</address>
+    <seats>240</seats>
+    <room-name>Foyer, HKW~3, HKW~4, HKW~5</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:00 - 22:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent></silent>
+    </specials>
+    <comment>Foyer, 5: Diskussionslernraum\newline 3, 4: Leiselernraum</comment>
+  </room>
+
+  <room>
+   <build-name>Bibliothek 2</build-name>
+    <build-nr>1160</build-nr>
+    <address>Templergraben 59</address>
+    <seats>160</seats>
+    <room-name>BTH2</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:00 - 24:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>09:00 - 24:00</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>11:00 - 24:00</time>
+    </open-l3>
+    <specials>
+      <accessibility>false</accessibility>
+      <wifi>true</wifi>
+      <rj45>true</rj45>
+      <power>true</power>
+      <silent></silent>
+    </specials>
+    <comment>120 Pl. Leiselernraum\newline 40 Pl. Gruppenlernraum</comment>
+  </room>    
+
+  <room>
+   <build-name>Hauptbibliothek</build-name>
+    <build-nr>1170</build-nr>
+    <address>Templergraben 61</address>
+    <seats>300</seats>
+    <room-name>BTH</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:00 - 24:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>09:00 - 24:00</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>11:00 - 24:00</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>true</rj45>
+      <power>true</power>
+      <silent>true</silent>
+    </specials>
+    <comment>3. OG laptopfrei</comment>
+  </room>
+
+  <room>
+   <build-name>Audimax</build-name>
+    <build-nr>1420</build-nr>
+    <address>Wüllnerstr. 9</address>
+    <seats>196</seats>
+    <room-name>Flure, kleiner Lernraum</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>07:30 - 21:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>09:00 - 14:00</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>false</power>
+      <silent>false</silent>
+    </specials>
+    <comment>kleiner Lernraum: mit 230V-Anschluss</comment>
+  </room>
+
+  <room>
+   <build-name>Audimax</build-name>
+    <build-nr>1420</build-nr>
+    <address>Wüllnerstr. 9</address>
+    <seats>144</seats>
+    <room-name>großer Lernraum</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>07:30 - 21:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>09:00 - 21:00</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>false</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+  <room>
+   <build-name>Semi90</build-name>
+    <build-nr>1580</build-nr>
+    <address>Templergraben 90</address>
+    <seats>192</seats>
+    <room-name>Semi90</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>19:00 - 24:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>08:00 - 24:00</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>08:00 - 24:00</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>true</rj45>
+      <power>true</power>
+      <silent>true</silent>
+    </specials>
+    <comment>in freien Zwischenzeiten auch als Lernraum nutzbar</comment>
+  </room>
+
+  <room>
+   <build-name>Erweiterungsb. Architektur</build-name>
+    <build-nr>1660</build-nr>
+    <address>Schinkelstr. 13</address>
+    <seats>196</seats>
+    <room-name>Baumhaus</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>09:00 - 19:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>false</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>false</silent>
+    </specials>
+    <comment>Räume im EG barrierefrei</comment>
+  </room>
+
+  <room>
+   <build-name>Seminargebäude</build-name>
+    <build-nr>1810</build-nr>
+    <address>Wüllnerstr. 5b</address>
+    <seats>142</seats>
+    <room-name>SG 202, SG 203, SG 413, SG 422</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:00 - 20:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>false</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>false</power>
+      <silent>false</silent>
+    </specials>
+    <comment>nur eingeschränkte Barrierefreiheit; 202:~Leiselernraum</comment>
+  </room>
+
+  <room>
+   <build-name>Kármán-Auditorium</build-name>
+    <build-nr>1820</build-nr>
+    <address>Eilfschornsteinstr. 15</address>
+    <seats>84</seats>
+    <room-name>Kármán-Foyer</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>07:00 - 21:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>07:00 - 14:00</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>false</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+  <room>
+   <build-name>Germanistisches Institut</build-name>
+    <build-nr>1821</build-nr>
+    <address>Eilfschornsteinstr. 15</address>
+    <seats>72</seats>
+    <room-name>Foyer, Verbindungsgang</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>07:00 - 21:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>07:00 - 14:00</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>false</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+  <room>
+   <build-name>Elektrische Nachrichtentechnik</build-name>
+    <build-nr>2090</build-nr>
+    <address>Melatener~Str. 23~-~25</address>
+    <seats>47</seats>
+    <room-name>IFHT</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:30 - 17:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>false</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>false</power>
+      <silent>false</silent>
+    </specials>
+    <comment>Lernraum FB6: 10 PCs vorhanden</comment>
+  </room>
+
+  <room>
+   <build-name>SB Bauingenieurwesen</build-name>
+    <build-nr>2131</build-nr>
+    <address>Mies-v.d.Rohe-Str.~1</address>
+    <seats>16</seats>
+    <room-name>Verbindung BauIng.</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:00 - 19:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>true</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+  <room>
+   <build-name>Hörsaalgebäude PPS</build-name>
+    <build-nr>2315</build-nr>
+    <address>Prof.-Pirlet-Str.~12</address>
+    <seats>84</seats>
+    <room-name>PPS Foyer</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>07:00 - 20:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>false</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+  <room>
+   <build-name>Informatikzentrum</build-name>
+    <build-nr>2350</build-nr>
+    <address>Ahornstr.~55</address>
+    <seats>14</seats>
+    <room-name>Hauptbau, 2022</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:30 - 19:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>false</wifi>
+      <rj45>true</rj45>
+      <power>true</power>
+      <silent>true</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+  <room>
+   <build-name>Informatikzentrum</build-name>
+    <build-nr>2351</build-nr>
+    <address>Ahornstr.~55</address>
+    <seats>11</seats>
+    <room-name>Foyer Schwimmbad</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:30 - 17:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>false</wifi>
+      <rj45>false</rj45>
+      <power>false</power>
+      <silent>true</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+  <room>
+   <build-name>Informatikzentrum</build-name>
+    <build-nr>2352</build-nr>
+    <address>Ahornstr.~55</address>
+    <seats>44</seats>
+    <room-name>Foyer Informatik</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:30 - 17:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>true</rj45>
+      <power>true</power>
+      <silent>true</silent>
+    </specials>
+    <comment>24h-Zugang mittels Schlüssel gegen Kaution</comment>
+  </room>
+
+  <room>
+   <build-name>Informatikzentrum</build-name>
+    <build-nr>2353</build-nr>
+    <address>Ahornstr.~55</address>
+    <seats>48</seats>
+    <room-name>Erweiterungsbau</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:30 - 17:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>false</wifi>
+      <rj45>false</rj45>
+      <power>false</power>
+      <silent>true</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+  <room>
+   <build-name>Informatikzentrum</build-name>
+    <build-nr>2353</build-nr>
+    <address>Ahornstr.~55</address>
+    <seats>155</seats>
+    <room-name>Bibliotheken</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:30 - 19:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>true</rj45>
+      <power>true</power>
+      <silent>true</silent>
+    </specials>
+    <comment>KiWi 4002 kleinkindergerecht</comment>
+  </room>
+
+  <room>
+   <build-name>Informatikzentrum</build-name>
+    <build-nr>2356</build-nr>
+    <address>Ahornstr.~55</address>
+    <seats>72</seats>
+    <room-name>5054, 5055</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:00 - 19:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>false</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+  <room>
+   <build-name>Informatikzentrum</build-name>
+    <build-nr>2356</build-nr>
+    <address>Ahornstr.~55</address>
+    <seats>72</seats>
+    <room-name>Foyer, Garderobe</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:00 - 17:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>true</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+  <room>
+   <build-name>Büropark Aachen</build-name>
+    <build-nr>3011</build-nr>
+    <address>Kackertstr.~7</address>
+    <seats>24</seats>
+    <room-name>B~040, B~060, B~061</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:00 - 17:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>true</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+  <room>
+    <build-name>Aixtron A</build-name>
+    <build-nr>3020</build-nr>
+    <address>Kackertstr.~15</address>
+    <seats>44</seats>
+    <room-name>Se 3</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:00 - 17:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>true</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+  <room>
+    <build-name>Rochusstraße</build-name>
+    <build-nr>3990</build-nr>
+    <address>Rochusstr. 2~-~14</address>
+    <seats>134</seats>
+    <room-name>Rochusstraße</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>s. Aushang</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>false</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>false</power>
+      <silent>false</silent>
+    </specials>
+    <comment>EG barrierefrei, RS~106:~Leiselernraum</comment>
+  </room>
+
+  <room>
+    <build-name>Walter-Schottky-Haus</build-name>
+    <build-nr>4243</build-nr>
+    <address>Sommerfeldstr. 24</address>
+    <seats>24</seats>
+    <room-name>24 C 105</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>08:30 - 17:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>false</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>true</silent>
+    </specials>
+    <comment>eingeschränkt barrierefrei\newline wenn verschlossen: Fr. Jenkes öffnet</comment>
+  </room>
+
+  <room>
+    <build-name>Sammelbau Physik</build-name>
+    <build-nr>4281</build-nr>
+    <address>Sommerfeldstr. 16</address>
+    <seats>10</seats>
+    <room-name>III. Physikalisches Institut</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>09:00 - 16:30</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>false</wifi>
+      <rj45>true</rj45>
+      <power>false</power>
+      <silent>true</silent>
+    </specials>
+    <comment>10 PCs vorhanden</comment>
+  </room>
+
+  <room>
+    <build-name>Sammelbau Biologie</build-name>
+    <build-nr>5421</build-nr>
+    <address>Worringer Weg~1</address>
+    <seats>12</seats>
+    <room-name>Foyer SB Bio</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>07:00 - 19:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>true</wifi>
+      <rj45>false</rj45>
+      <power>true</power>
+      <silent>true</silent>
+    </specials>
+    <comment>8 PCs vorhanden</comment>
+  </room>
+
+  <room>
+    <build-name>Theaterplatz</build-name>
+    <build-nr>6070</build-nr>
+    <address>Theaterplatz~14</address>
+    <seats>8</seats>
+    <room-name>Flure</room-name>
+    <open-l1>
+      <days>Mo - Fr</days>
+      <time>07:00 - 19:00</time>
+    </open-l1>
+    <open-l2>
+      <days>Sa</days>
+      <time>geschlossen</time>
+    </open-l2>
+    <open-l3>
+      <days>So</days>
+      <time>geschlossen</time>
+    </open-l3>
+    <specials>
+      <accessibility>true</accessibility>
+      <wifi>false</wifi>
+      <rj45>false</rj45>
+      <power>false</power>
+      <silent>false</silent>
+    </specials>
+    <comment></comment>
+  </room>
+
+</room-list>

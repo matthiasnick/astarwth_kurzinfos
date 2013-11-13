@@ -1,0 +1,104 @@
+#LyX file created by tex2lyx 1.6.7
+\lyxformat 264
+\begin_document
+\begin_header
+\textclass article
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize default
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{artikel}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset VSpace -16pt
+\end_inset
+
+ Neben der Entscheidung, welches Fach Du an welcher Hochschule studieren m"ochtest, stellt sich zum Studienanfang nat"urlich auch die Frage der Studienfinanzierung. Dabei geht es im Wesentlichen um das Aufbringen der allgemeinen Lebenshaltungskosten, die sp"atestens jetzt, wo Du hoffentlich eine eigene Wohnung in Aachen gefunden hast, auch auf Dich zukommen.
+\end_layout
+
+\begin_layout Standard
+
+F"ur Studierende, die w"ahrend des Studiums finanziell nicht von ihren Eltern unterst"utzt werden k"onnen, gibt es die Bundesausbildungsf"orderung -- kurz auch BAf"oG genannt (von BundesAusbildungsf"orderungsGesetz).
+\newline
+
+\end_layout
+
+\begin_layout Standard
+
+Dieses Info-Blatt soll einen "Uberblick und Antworten auf die wichtigsten Fragen geben, die sich viele ErstsemesterInnen stellen. Da das BAf"oG Gesetz sehr komplex ist und es viele Ausnahmeregelungen gibt, k"onnen wir hier nur die Standard-F"alle beschreiben. F"ur detailliertere Fragen oder f"ur Probleme bei der Beantragung steht Dir im AStA eine BAf"oG-Beratung zur Verf"ugung.
+\end_layout
+
+\begin_layout Standard
+
+Au"serdem findest Du auf der R"uckseite eine Aufstellung der wichtigsten Anlaufstellen, die zu der Antragstellung, dem BAf"oG-Bescheid oder der R"uckzahlung informieren oder beraten k"onnen. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{artikel}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document

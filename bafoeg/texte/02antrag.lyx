@@ -1,0 +1,207 @@
+#LyX file created by tex2lyx 1.6.7
+\lyxformat 264
+\begin_document
+\begin_header
+\textclass article
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\paperfontsize default
+\spacing single
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+begin{artikel}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+{
+\end_layout
+
+\end_inset
+
+Antragstellung
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+frage{
+\end_layout
+
+\end_inset
+
+Was geh"ort in den Erstantrag?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ F"ur die Antragstellung musst Du einige Antragsformulare ausf"ullen. Diese Antr"age findest Du im Internet unter: 
+\begin_inset LatexCommand url
+target "http://www.studentenwerk-aachen.de/bafoeg/bafoeg/download/start.asp"
+
+\end_inset
+
+ oder beim BAf"oG Amt in der Peterstra"se 44 - 46 in Aachen.
+\end_layout
+
+\begin_layout Standard
+
+Alle BAf"oG-Empf"angerInnen m"ussen das Formblatt 1 und das Zusatzblatt zum Formblatt 1 ausf"ullen. Solltest Du elternabh"angiges BAf"oG bekommen (was der Regelfall ist), musst Du f"ur Deine Eltern das Formblatt 3 plus den Lohnsteuerbescheid von vor zwei Jahren abgeben. Sollten Deine Eltern nicht gemeinsam zur Lohnsteuer veranlagt werden, muss das Formblatt pro Elternteil mit Einkommen einmal ausgef"ullt werden. Wenn Du eine eigene Wohnung hast, musst Du noch eine Mietbescheinigung einreichen. Au"ser den Formbl"attern geh"ort noch ein Krankenversicherungsnachweis und eine Studienbescheinigung in den Antrag.
+\end_layout
+
+\begin_layout Standard
+
+Falls Du keine deutsche Staatsangeh"origkeit hast, musst Du zus"atzlich noch das Formblatt 4 abgeben.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+frage{
+\end_layout
+
+\end_inset
+
+Wann sollte ich meinen Erstantrag abgeben?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ Am besten ca. drei Monate vor Beginn des ersten Semesters. Damit stellst Du sicher, dass "uber Deinen Antrag rechtzeitig entschieden wird, um zum Anfang des ersten Semesters F"orderung zu erhalten.
+\end_layout
+
+\begin_layout Standard
+
+Sp"atestens musst Du den Antrag bis zum Ende des ersten Studienmonats stellen. Allerdings ist davon stark abzuraten, schlie"slich kann die Bearbeitung Deines Antrags eine ganze Weile dauern.
+\end_layout
+
+\begin_layout Standard
+
+Du kannst auch noch nach Ende des ersten Studienmonats einen Antrag stellen, hast aber dann keinen Anspruch mehr auf eine Nachzahlung f"ur die vergangenen Monate.
+\end_layout
+
+\begin_layout Standard
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+frage{
+\end_layout
+
+\end_inset
+
+Wie lange dauert die Entscheidung "uber meinen Antrag im Normalfall?
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+}
+\end_layout
+
+\end_inset
+
+ Hast Du Deinen Antrag fr"uhzeitig abgegeben (ca. 3 Monate vor Beginn des ersten Semesters), sollte sp"atestens zum Semester- 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Standard
+
+
+\backslash
+end{artikel}
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document
