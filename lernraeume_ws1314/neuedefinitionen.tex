@@ -1,0 +1,76 @@
+%% ganz, ganz nette Befehle die oben in den jeweiligen Style-Files eingebunden werden...
+
+\newfont{\ask}{lmbsy10 at 8pt}
+\newfont{\klein}{ec-lmss10 at 10pt}
+\newfont{\ccc}{ec-lmssbx10 at 9.17pt}
+\newfont{\ccb}{ec-lmssbx10 at 38pt}
+\newfont{\cch}{ec-lmssbx10 at 16pt}
+\newfont{\ccr}{ec-lmssbx10 at 56pt}
+\newfont{\gra}{ec-lmbx12 at 7 pt}
+\newfont{\grb}{ec-lmbx12 at 8.5pt}
+\newfont{\cca}{ec-lmssbx10 at 12pt}
+\renewcommand{\familydefault}{lmss}
+
+\definecolor{light}{gray}{.9}
+\definecolor{lighter}{gray}{.95}
+\definecolor{lesslight}{gray}{.70}
+
+\newcommand{\kulturtermin}[4]{
+\vspace{0.5ex}
+\begin{wrapfigure}{l}{2pt}
+\vspace{-10pt}
+\hspace*{-5pt}\kultur
+\vspace{-10pt}
+\end{wrapfigure}
+\textbf{#1}\hfill{}\mbox{\it #2} \\
+#3 \hfill{} #4
+
+}
+
+\newcommand{\email}[1]{\href{mailto:#1}{\texttt{#1}}}
+
+\newcommand{\aq}{\includegraphics[width=2ex]{../logos/ampelmann}}
+\newcommand{\astakultur}{\includegraphics[height=1.2ex]{../logos/astakultur}}
+\newcommand{\kultur}{\includegraphics[scale=0.25]{../logos/kultur}}
+\newcommand{\kulturpreise}[3]{\vspace{1ex}
+W\"ahrend der \"Offnungszeiten k\"onnen Studierende im AStA Karten zum
+Vorzugspreis von #1\euro{} kaufen. Im weiteren Vorverkauf kosten
+diese
+#2\euro{} bzw. #3\euro{} an der Abendkasse.}
+\newcommand{\q}{\ask K}
+\newcommand{\Uhr}{{$^{\mbox{\tiny 00}}$~}}
+\newcommand{\uhr}{{$^{\mbox{\tiny 15}}$~}}
+\newcommand{\uuhr}{{$^{\mbox{\tiny 30}}$~}}
+\newcommand{\uuuhr}{{$^{\mbox{\tiny 45}}$~}}
+
+\newcommand{\logo}{\textsc{"`90 Sekunden"'}}
+\newcommand{\visdp}{}
+\newcommand{\verantwortlich}[1]{\renewcommand{\visdp}{#1}}
+\newcommand{\auflagenhoehe}{}
+\newcommand{\auflage}[1]{\renewcommand{\auflagenhoehe}{#1}}
+%% So ein bloedes Konstrukt braucht man, weil in einer schlieﬂenden Umgebung irgendwie kein Parameter ankommt...
+\newcommand{\ausgabe}{}
+\newcommand{\ausgabennummer}[1]{\renewcommand{\ausgabe}{#1}}
+\newcommand{\titeltext}{}
+\newcommand{\titel}[1]{\renewcommand{\titeltext}{#1}}
+\newcommand{\untertiteltext}{}
+\newcommand{\untertitel}[1]{\renewcommand{\untertiteltext}{#1}}
+\newcommand{\drucken}{}
+\newcommand{\druck}[1]{\renewcommand{\drucken}{#1}}
+\newcommand{\quellentext}{}
+\newcommand{\quellen}[1]{\renewcommand{\quellentext}{#1}}
+\newcommand{\extra}{90 SEKUNDEN} %vielleicht kommt da ja mal was netteres hin..
+
+
+% Weihnachts-90Sek
+
+\newcommand{\ii}{{\i\kern-.43em\raise.95ex\hbox{$\star$}\kern-.05em}} 
+\newcommand{\II}{{\i\kern-.3em\raise.95ex\hbox{$\star\!$}}}           
+\newcommand{\Istar}{{\kern -0.1em\raisebox{1ex}{$\star$}\kern -0.35em{\i}}}
+\newcommand{\jj}{{\j\kern-.43em\raise.95ex\hbox{$\star$}\kern-.05em}}
+
+% /
+
+\newlength{\spaltenbreite}
+\setlength{\spaltenbreite}{18.7cm}
+\input{makros.tex}

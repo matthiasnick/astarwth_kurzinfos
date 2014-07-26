@@ -1,0 +1,186 @@
+\documentclass[10pt]{article}
+\usepackage{kurzinfo}
+\usepackage[table]{xcolor}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{tabu}
+\usepackage{ngerman}
+\usepackage{lmodern}
+\RequirePackage[ngerman=ngerman-x-latest]{hyphsubst}
+
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+
+\hyphenation{Haupt-bibliothek Informatik-zentrum Hörsaal-gebäude Seminar-gebäude}
+
+\verantwortlich{M. Gehring} % HIER VISDP EINTRAGEN
+\druck{AStA der RWTH}
+\auflage{ca. 5000} %HIER APPROXIMIERTE AUFLAGE EINTRAGEN
+\ausgabennummer{1} %% BITTE NACHSEHEN
+\begin{document}
+%<doppelseite>
+%% DATUM KORRIGIEREN !!!%%%%
+
+\newcommand{\mr}[2]{\multirow{-3}{*}{\parbox{#1}{\centering \hspace*{-.75ex} #2}}}
+
+\begin{vorderseite}{Stand 05.02.2014}{Lernr\"aume} %erste Seite, Datum und Ueberschrift
+\vspace{-1.5ex}
+\begin{artikel}{\large Liebe Studis,}
+\vspace{-2.0ex} {damit Ihr Euch w\"ahrend der vorlesungsfreien Zeit m\"oglichst in Ruhe auf Eure Pr\"ufungen vorbereiten k\"onnt, haben wir in Zusammenarbeit mit der Zentralen Hochschulverwaltung eine Liste aller Lernr\"aume an der RWTH erstellt. Sollte es irgendwelche Probleme geben, so k\"onnt Ihr uns diese unter \email{lehre@asta.rwth-aachen.de} schildern und wir versuchen, sie schnellstm\"oglich zu beheben.\newline
+\vspace{.2ex}\noindent
+Wir w\"unschen Euch viel Erfolg bei den anstehenden Pr\"ufungen.\newline
+\vspace{.2ex}\noindent
+Euer AStA}
+\end{artikel}
+\vspace{-5ex}
+{
+\centering
+\input{liste1}
+}
+\vspace{-6ex}
+\end{vorderseite}
+
+
+\begin{rueckseite}{Stand 05.02.2014}{Lernr\"aume} %Rueckseite, dass die immer so hei"st wie die Vorderseite, habe ich (noch) nicht hingekriegt.
+\vspace{-3.5ex}
+{
+\centering
+\input{liste2}
+}
+\vspace{2ex}
+\zweispalten{.57\linewidth}%Breite der linken Spalte, der Kontaktblock sitzt im Stylefile\ldots
+{
+%\vspace{-8ex}
+\fcolorbox{black}{light}{\parbox{\linewidth}{\textbf{Hinweise und Haftungsausschluss}%Beispielbox
+
+{
+\scriptsize 
+
+\vspace{0.80ex}
+
+Die angegebenen Öffnungszeiten sind mit der Hochschulverwaltung abgesprochen. Sollte es hier Probleme geben, wendet Euch bitte an \email{lehre@asta.rwth-aachen.de}.
+
+\vspace{1.50ex}
+
+Falls sich Fehler in die Liste eingeschlichen haben oder Informationen falsch sind, gebt uns bitte auch Bescheid.
+
+\vspace{1.50ex}
+
+Verbindliche Auskünfte erteilen die jeweils zuständigen Stellen. AStA und Redaktion haften nicht für die Inhalte dieses Informationsblattes.
+
+}}}
+}
+{
+\fcolorbox{black}{light}{\parbox{1.00\linewidth}{\textbf{Legende}%Beispielbox
+
+\vspace{1.50ex}
+
+\scriptsize\begin{tabu}{c|lc|l}
+\includegraphics[height=1.5ex]{access}~   & barrierefrei        & \includegraphics[height=1.5ex]{noaccess}~   & nicht barrierefrei\\
+\includegraphics[height=1.5ex]{wifi}~     & eduroam-Zugang      & \includegraphics[height=1.5ex]{nowifi}~     & kein eduroam-Zugang\\
+\includegraphics[height=1.5ex]{ethernet}~ & Ethernet-Anschluss  & \includegraphics[height=1.5ex]{noethernet}~ & kein Ethernet-Anschluss\\
+\includegraphics[height=1.5ex]{power}~    & 230V-Anschluss       & \includegraphics[height=1.5ex]{nopower}~    & kein 230V-Anschluss\\
+\includegraphics[height=1.5ex]{silent}~   & Leiselernraum       & \includegraphics[height=1.5ex]{nosilent}~   & Diskussionslernraum
+\end{tabu}
+
+\vspace{1.50ex}
+Piktogramme von The Noun Project}
+
+}
+}
+\vspace{2ex}
+\vfill\noindent
+\fcolorbox{black}{light}{
+\begin{minipage}[b]{0.993\linewidth}
+\parbox{\linewidth}{
+\parbox[t]{.25\linewidth}{
+\scriptsize
+\textbf{\footnotesize Kontakt zum AStA:}\\
+Allgemeiner Studierendenausschuss \\
+der RWTH Aachen\\
+Peterstr. 44-46, 52062 Aachen\\
+Tel.: 0241 / 80 - 93792 \\
+Fax.: 0241 / 80 - 92394 \\
+\url{http://www.asta.rwth-aachen.de/}\\
+\email{asta@asta.rwth-aachen.de} \\
+%\vspace*{7ex}
+%\setlength\fboxsep{0pt}
+%\setlength\fboxrule{0.5pt}
+%\fbox{\includegraphics[scale=0.25]{/opt/share/90sek/Logos/Schneebild}} \\
+%\vspace*{-11ex}
+\\
+\scriptsize
+\textbf{\footnotesize \"Offnungszeiten:}\\
+Mo. -- Fr. \hfill{} 10\Uhr{} -- 14\Uhr{} Uhr\hspace*{1ex}\\
+\vspace*{0.2ex}
+
+\textbf{\footnotesize AStA Sitzungen:}\\
+\scriptsize Mo. 14\Uhr{} Uhr (nat\"urlich \"offentlich!)\\
+}
+\parbox[t]{.10\linewidth}{}
+\parbox[t]{.28\linewidth}{
+
+\textbf{\footnotesize Service-Zeiten:}\\
+\scriptsize
+Beglaubigung:           \hfill{} Mo. -- Fr. 10\Uhr{} -- 14\Uhr{} Uhr\hspace*{1ex}\\
+ISIC:                   \hfill{} Mo. -- Fr. 10\Uhr{} -- 14\Uhr{} Uhr\hspace*{1ex}\\
+AStA-Kultur:            \hfill{} nach Vereinbarung{}    \hspace*{1ex}\\
+% \vspace*{0.2ex}
+\\
+\textbf{\footnotesize Rechtsberatung:}\\
+Allgemein: \hfill{} nach Vereinbarung \\
+Prüfungsrecht: \hfill{} nach Vereinbarung\\
+Mietrecht: \hfill{} nach Vereinbarung\\
+Ausländerrecht: \hfill{} nach Vereinbarung\\
+\\
+{\it Die Termine zur Rechtsberatung werden nur nach vorheriger Terminabsprache im AStA vergeben. \\(nicht telefonisch)}
+}
+\parbox[t]{.10\linewidth}{}
+\parbox[t]{.45\linewidth}{
+
+\raggedright{\textbf{\footnotesize Beratungszeiten:}}\\
+\scriptsize
+Wohnen:                         \hfill{}Mo., Mi., Do., Fr. 10\Uhr{} -- 14\Uhr{} Uhr                     \hspace*{1ex}\\
+
+BAföG:                        \hfill{}Di., Mi, Do, Fr. 10\Uhr{} -- 14\Uhr{} Uhr             \hspace*{1ex}\\
+
+Studienfinanzierung, Jobben:           \hfill{}Mi. \& Fr. 10\Uhr{} -- 14\Uhr{} Uhr             \hspace*{1ex}\\
+
+Studieren mit Kind / Pflege:            \hfill{}Mo. 12\Uhr{} -- 14\Uhr{} Uhr                    \hspace*{1ex}\\
+                                \hfill{}Do. 10\Uhr{} -- 14\Uhr{} Uhr                    \hspace*{1ex}\\
+
+Sozialdarlehen und Beihilfen:   \hfill{}Mo. \& Mi. 10\Uhr{} -- 14\Uhr{} Uhr             \hspace*{1ex}\\
+                                \hfill und nach Vereinbarung                            \hspace*{1ex}\\
+
+Behinderung / chr. Krankheit:   \hfill{}Mo. 10\Uhr{} -- 12\Uhr{} Uhr                    \hspace*{1ex}\\
+                                \hfill{}Di. 10\Uhr{} -- 14\Uhr{} Uhr                    \hspace*{1ex}\\
+                                \hfill{}Do. 12\Uhr{} -- 14\Uhr{} Uhr                    \hspace*{1ex}\\
+                                \hfill{}Fr. 10\Uhr{} -- 14\Uhr{} Uhr                    \hspace*{1ex}\\
+
+Gleichstellung:                \hfill{}Mo. \& Fr. 10\Uhr{} -- 14\Uhr{} Uhr               \hspace*{1ex}\\
+
+AV-Beratung (Humboldt-Haus): \hfill{}Mo. -- Mi., Fr. 10\Uhr{} -- 12\Uhr{} Uhr                  \hspace*{1ex}\\
+\vspace*{-1.7ex}
+
+}
+}
+%% Dies ist die letzte kleine schwarze Box auf der zweiten Seite. Wird in den jeweiligen Style-files eingebunden.
+\vspace*{-1ex}
+
+\rule{\linewidth}{.5pt}
+\vspace*{-3.5ex}
+
+\textbf{\scriptsize Impressum:}
+{\footnotesize AStA der RWTH Aachen, Peterstr. 44-46, 52062 Aachen; ViSdP:  \visdp{}; \email{lehre@asta.rwth-aachen.de}; Auflage: 
+\auflagenhoehe \hspace*{1ex}Stk. \hspace*{\fill}}
+\end{minipage}
+}
+
+\vspace{-5ex}
+
+%\input{texte/linkliste}
+\end{rueckseite}
+%<geschweifteKlammer>
+\end{document}  
+
+

@@ -1,0 +1,77 @@
+\centering\setlength{\tabcolsep}{3pt}
+\begin{longtabu} to 1.002\linewidth {|c|c|c|c|c|c|cccc|X|}
+\hline
+\multirow{2}{*}{Gebäude} & \multirow{2}{*}{Adresse} & \multirow{2}{*}{Pl.} & \multirow{2}{*}{Raumbez.} & \multicolumn{2}{c|}{\multirow{2}{*}{Öffnungszeiten}} & \multicolumn{5}{c|}{\multirow{2}{*}{Ausstattung}} & \centering \multirow{2}{*}{\centering Bemerkungen}\\
+&&&&\multicolumn{2}{c|}{~}&&&&&\\\hline
+\endfirsthead
+\hline
+
+\rg &&&& Mo - Fr & 09:00 - 22:00 &&&&& \\
+\rg &&&& Sa & geschlossen &&&&& \\
+\rg \mr{2.2cm}{SuperC} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1040}{Templergraben 57}} & \mr{0.7cm}{268} & \mr{2.2cm}{Sparkassen-Forum} & So & geschlossen & \access & \wifi & \noe& \power & \nosilent & \\\hline
+
+\rw &&&& Mo - Fr & 07:00 - 20:00 &&&&& \\
+\rw &&&& Sa & 07:00 - 20:00 &&&&& \\
+\rw \mr{2.2cm}{MOGAM} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1060}{Kármánstr. 15a}} & \mr{0.7cm}{240} & \mr{2.2cm}{MOGAM} & So & 07:00 - 20:00 & \access & \wifi & \power & \nosilent & \\\hline
+
+\rg &&&& Mo - Fr & 07:00 - 20:30 &&&&& \\
+\rg &&&& Sa & geschlossen &&&&& \\
+\rg \mr{2.2cm}{Couven-Gymnasium} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1070}{Kármánstr.~17~-~19}} & \mr{0.7cm}{24} & \mr{2.2cm}{Flur Anglistik} & So & geschlossen & \noaccess & \wifi & \nopower & \nosilent & \\\hline
+
+\rw &&&& Mo - Fr & 08:30 - 17:30 &&&&& \\
+\rw &&&& Sa & geschlossen &&&&& \\
+\rw \mr{2.2cm}{Rogowski-Institut} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1090}{Schinkelstr. 2}} & \mr{0.7cm}{24} & \mr{2.2cm}{Rogowski Flur} & So & geschlossen & \access & \nowifi & \power & \silent & \\\hline
+
+\rg &&&& Mo - Fr & 08:00 - 20:00 &&&&& \\
+\rg &&&& Sa & geschlossen &&&&& \\
+\rg \mr{2.2cm}{HKW} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1132}{Wüllnerstr. 1}} & \mr{0.7cm}{120} & \mr{2.2cm}{HKW~3, HKW~4, Foyer} & So & geschlossen & \access & \wifi & \power & \dash & \mr{3.8cm}{\raggedright Foyer: Diskussionslernraum\newline 3, 4: Leiselernraum}\\\hline
+
+\rw &&&& Mo - Fr & 07:00 - 20:00 &&&&& \\
+\rw &&&& Sa & geschlossen &&&&& \\
+\rw \mr{2.2cm}{Bergbaugebäude} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1140}{Wüllnerstr. 2}} & \mr{0.7cm}{24} & \mr{2.2cm}{R 514} & So & geschlossen & \access & \wifi & \nopower & \nosilent & \\\hline
+
+\rg &&&& Mo - Do & 08:30 - 16:00 &&&&& \\
+\rg &&&& Fr & 08:30 - 15:00 &&&&& \\
+\rg \mr{2.2cm}{Bergbaugebäude} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1140}{Wüllnerstr. 2}} & \mr{0.7cm}{27} & \mr{2.2cm}{Be108} & Sa/So & geschlossen & \noaccess & \wifi & \power & \nosilent & \\\hline
+
+\rw &&&& Mo - Fr & 08:00 - 24:00 &&&&& \\
+\rw &&&& Sa & 09:00 - 24:00 &&&&& \\
+\rw \mr{2.2cm}{Bibliothek 2} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1160}{Templergraben 59}} & \mr{0.7cm}{160} & \mr{2.2cm}{BTH2} & So & 11:00 - 24:00 & \noaccess & \wifi & \power & \dash & \mr{3.8cm}{\raggedright 120 Pl. Leiselernraum\newline 40 Pl. Gruppenlernraum}\\\hline
+
+\rg &&&& Mo - Fr & 08:00 - 24:00 &&&&& \\
+\rg &&&& Sa & 09:00 - 24:00 &&&&& \\
+\rg \mr{2.2cm}{Hauptbibliothek} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1170}{Templergraben 61}} & \mr{0.7cm}{300} & \mr{2.2cm}{BTH} & So & 11:00 - 24:00 & \access & \wifi & \power & \silent & \mr{3.8cm}{\raggedright 3. OG laptopfrei}\\\hline
+
+\rw &&&& Mo - Fr & 07:30 - 21:30 &&&&& \\
+\rw &&&& Sa & 09:00 - 14:00 &&&&& \\
+\rw \mr{2.2cm}{Audimax} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1420}{Wüllnerstr. 9}} & \mr{0.7cm}{531} & \mr{2.2cm}{Flure Audimax} & So & geschlossen & \access & \wifi & \power & \nosilent & \\\hline
+
+\rg &&&& Mo - Fr & 19:00 - 24:00 &&&&& \\
+\rg &&&& Sa & 09:00 - 24:00 &&&&& \\
+\rg \mr{2.2cm}{Semi90} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1580}{Templergraben 90}} & \mr{0.7cm}{192} & \mr{2.2cm}{Semi90} & So & 09:00 - 24:00 & \access & \wifi & \power & \silent & \mr{3.8cm}{\raggedright in freien Zwischenzeiten auch als Lernraum nutzbar}\\\hline
+
+\rw &&&& Mo - Fr & 09:00 - 18:00 &&&&& \\
+\rw &&&& Sa & geschlossen &&&&& \\
+\rw \mr{2.2cm}{Erweiterungsb. Architektur} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1660}{Schinkelstr. 13}} & \mr{0.7cm}{196} & \mr{2.2cm}{Baumhaus} & So & geschlossen & \dash & \wifi & \nopower & \nosilent & \mr{3.8cm}{\raggedright EG barrierefrei}\\\hline
+
+\rg &&&& Mo - Fr & 08:00 - 20:00 &&&&& \\
+\rg &&&& Sa & geschlossen &&&&& \\
+\rg \mr{2.2cm}{Seminargebäude} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1810}{Wüllnerstr. 5b}} & \mr{0.7cm}{142} & \mr{2.2cm}{SG Wüllnerstr.} & So & geschlossen & \dash & \wifi & \nopower & \nosilent & \mr{3.8cm}{\raggedright nur eingeschränkte Barrierefreiheit}\\\hline
+
+\rw &&&& Mo - Fr & 07:00 - 21:30 &&&&& \\
+\rw &&&& Sa & 07:00 - 14:00 &&&&& \\
+\rw \mr{2.2cm}{Kármán-Auditorium} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1820}{Eilfschornsteinstr. 15}} & \mr{0.7cm}{84} & \mr{2.2cm}{Kármán-Foyer} & So & geschlossen & \access & \wifi & \power & \nosilent & \\\hline
+
+\rg &&&& Mo - Fr & 07:00 - 21:30 &&&&& \\
+\rg &&&& Sa & 07:00 - 14:00 &&&&& \\
+\rg \mr{2.2cm}{Kármán-Auditorium} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=1820}{Eilfschornsteinstr. 15}} & \mr{0.7cm}{72} & \mr{2.2cm}{Germanistik} & So & geschlossen & \access & \wifi & \power & \nosilent & \\\hline
+
+\rw &&&& Mo - Fr & 08:30 - 17:30 &&&&& \\
+\rw &&&& Sa & geschlossen &&&&& \\
+\rw \mr{2.2cm}{Elektrische Nachrichtentechnik} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=2090}{Melatener~Str. 23~-~25}} & \mr{0.7cm}{47} & \mr{2.2cm}{IFHT} & So & geschlossen & \noaccess & \wifi & \power & \nosilent & \mr{3.8cm}{\raggedright Lernraum FB6: 10 PCs}\\\hline
+
+\rg &&&& Mo - Fr & 08:00 - 19:00 &&&&& \\
+\rg &&&& Sa & geschlossen &&&&& \\
+\rg \mr{2.2cm}{SB Bauingenieurwesen} & \mr{2.5cm}{\href{http://maps.rwth-aachen.de/app/index.html?b=2130}{Mies-v.d.Rohe-Str.~1}} & \mr{0.7cm}{57} & \mr{2.2cm}{BS~312} & So & geschlossen & \noaccess & \wifi & \power & \nosilent & \mr{3.8cm}{\raggedright 26.02. Klausur}\\\hline
+
+\end{longtabu}

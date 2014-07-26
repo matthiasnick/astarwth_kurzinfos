@@ -1,0 +1,43 @@
+\relax 
+\catcode`"\active
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\gdef \LT@i {\LT@entry 
+    {2}{69.39595pt}\LT@entry 
+    {2}{77.53188pt}\LT@entry 
+    {2}{26.31683pt}\LT@entry 
+    {2}{68.99596pt}\LT@entry 
+    {2}{38.98337pt}\LT@entry 
+    {2}{65.42813pt}\LT@entry 
+    {2}{6.0pt}\LT@entry 
+    {2}{6.0pt}\LT@entry 
+    {2}{6.0pt}\LT@entry 
+    {2}{6.0pt}\LT@entry 
+    {1}{32.59435pt}\LT@entry 
+    {1}{150.37604pt}}
+\gdef \LT@ii {\LT@entry 
+    {2}{69.39595pt}\LT@entry 
+    {2}{77.53188pt}\LT@entry 
+    {2}{26.31683pt}\LT@entry 
+    {2}{68.99596pt}\LT@entry 
+    {2}{38.98337pt}\LT@entry 
+    {2}{61.95549pt}\LT@entry 
+    {2}{6.0pt}\LT@entry 
+    {2}{6.0pt}\LT@entry 
+    {2}{6.0pt}\LT@entry 
+    {2}{6.0pt}\LT@entry 
+    {1}{32.59435pt}\LT@entry 
+    {1}{152.79651pt}}
